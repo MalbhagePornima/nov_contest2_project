@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar {
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nav_button {
+    Width: 251px;
+    Height: 44px;
+    display: flex;
+    gap: 24px;
+    color: #253D4E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 940px;
+
+}
+
+.nav_button>.home {
+    color: #509E2F;
+}
+
+.man_img {
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    margin-left: 1310px;
+    margin: 19px;
+    gap: 5px;
+}
+
+.food_img {
+
+    background-image: url("./Rectangle 20.png");
+    background-size: cover;
+    background-position: center;
+    padding-left: 25px;
+    width: 1264px;
+    height: 355px;
+}
+
+.food_img_text {
+    color: #FFF;
+    padding: 112px 80px;
+}
+
+.food_img_text>.trend {
+    color: #DC582A;
+    font-size: 24px;
+    padding-top: 50px;
+
+}
+
+.food_img_text>.john_text {
+    font-size: 40px;
+}
+
+.search {
+    color: #252525;
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: poppins;
+    padding: 10px 10px;
+}
+
+.search_div {
+    padding-top: 50px;
+    background-color: #F3F3F3;
+    margin-top: 20px;
+    margin-inline: 10px;
+    height: 30px;
+    padding: 12px 12px;
+    color: #ADADAD;
+
+}
+
+.search_div>.search_btn {
+    padding: 10px 2px;
+}
+
+.search_div>.search_input {
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+    background: #F3F3F3;
+    align-items: center;
+    font-family: poppins;
+    width: 1225px;
+    padding: 5px 10px;
+}
+
+.all_receipes {
+    border-radius: 10px;
+    background: #EAAA00;
+    padding: 50px 29px;
+    height: 48px;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    width: 236.8px
+}
+
+.veg_receipe {
+    display: flex;
+    width: 236.8px;
+    height: 86px;
+    padding: 30px 26.6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #C4D600;
+
+}
+
+.non_veg_receipe {
+    display: flex;
+    width: 236.8px;
+    height: 86px;
+    padding: 30px 22.4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #DC582A;
+}
+
+.receipes_option {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    color: #FFF;
+}
+
+.section_4 {
+    display: flexbox;
+}
+
+.filter {
+    color: #252525;
+    font-family: Poppins;
+    font-size: 22px;
+    display: flex;
+    width: 284px;
+    padding: 20px 202px 9px 15px;
+    align-items: center;
+    border-radius: 7px;
+    background: #FFF;
+}
+
+.rating {
+    color: #252525;
+    font-family: Poppins;
+    font-size: 18px;
+    display: flex;
+    padding: 15px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 7px;
+    background: #FFF;
+}
+
+.inputs {
+    padding: 10px 10px;
+    color: #253D4E;
+    font-family: Inter;
+    row-gap: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+.img_name {
+    width: 305px;
+    height: 315px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+
+.my_footer {
+    width: 50vw;
+    display: flex;
+    height: 246px;
+    font-family: poppins;
+    justify-content: space-between;
+}
+
+.cookpal_logo {
+    width: 96px;
+    height: 46px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.col-1>.footer_text {
+    height: 120px;
+    width: 290px;
+    color: #253D4E;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    Padding: 80px, 70px, 40px, 70px;
+    Gap: 80px;
+}
+
+.ol-2>.table_col {
+
+    padding-left: 63px;
+    padding-bottom: 220px;
+    padding-right: 85px;
+    gap: 24px;
+}
+
+.col-2 {
+
+    width: 102px;
+    height: 246px;
+    margin-left: 433px;
+}
+
+.col-2>.footer-link-heading {
+    display: flex;
+    gap: 24px;
+}
+
+.col-3 {
+    display: flex;
+    height: 178px;
+    width: 400px;
+    flex-direction: column;
+    padding-left: 300px;
+}
+
+.col-3>.c_logo {
+    width: 96px;
+    height: 46px;
+}
+
+.col-3>.ut_text {
+    width: 400px;
+    height: 40px;
+    size: 14px;
+    line-height: 20px;
+    color: #00000099;
+}
+.col-3>.form{
+    display: flex;
+}
+
+.col-3>.form>.enter_ip {
+    width: 290px;
+    height: 44px;
+    gap: 4px;
+    display: flex;
+    padding: 12px 16px;
+    background-color: #FBFDFE;
+    align-items: center;
+    border-radius: 8px;
+     border-color: #253D4E;
+    
+
+}
+
+.col-3>.form>.enter_ip>.your_email {
+
+    height: 20px;
+    width: 238px;
+    border: none;
+    color:  #253D4E;
+    
+}
+
+.col-3>.enter_ip>.symbol {
+    Width: 20px;
+    Height: 20px;
+    Gap: 4px;
+}
+
+.col-3>.form>.sub_btn>.btn {
+
+    background-color: #27970a;
+    color: #FCFAFF;
+    size: 16px;
+    Width: 77px;
+    Height: 35px; 
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 5px;
+    border: none;
+  
+}
+
+td {
+    padding: 3px 10px;
+}
+
+.social_buttons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-inline: 10px;
+}
